@@ -20,7 +20,7 @@ random.seed(42)
 
 # %% 模型加载
 with st.spinner("Loading medical AI model..."):
-    loaded_model = load_model(r'C:\Users\32537\Desktop\MLtest\Ada Boost Classifier')
+    loaded_model = load_model(r'Ada Boost Classifier')
     pipeline = loaded_model[:-1]
 
 # %% 数据准备
