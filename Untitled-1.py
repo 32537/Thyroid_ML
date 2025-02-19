@@ -14,7 +14,7 @@ random.seed(42)
 # %%
 
 #加载模型
-loaded_model = load_model(r'C:\Users\32537\Desktop\MLtest\Ada Boost Classifier') #不需要后缀
+loaded_model = load_model(r'Ada Boost Classifier') #不需要后缀
 #loaded_model
 #获取模型的pipeline
 pipeline = loaded_model[:-1]
